@@ -1,0 +1,15 @@
+﻿{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5004",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "POSTGRES_DB_CONNECTION_STRING": "Server=127.0.0.1;User Id=postgres_user;Password=postgres_password;Port=5430;Database=postgres;"
+      }
+    }
+  }
+}
